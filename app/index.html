@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>prac03 foursquare</title>
+  <title>prac03</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -35,30 +35,32 @@
     </div>
 
     <div class="jumbotron">
-      <h1>FourSquare Checkins</h1>
-      <p class="lead">FourSquare API & jQuery</p>
-      <p><a class="btn btn-lg btn-success" href="#">Load</a></p>
+      <h1>Github commits</h1>
+      <p class="lead">Github API & jQuery</p>
+      <form role="form">
+        <div class="form-group">
+          <input type="text" placeholder="Enter your github username" id="github" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-default" href="#">Submit</button>
+      </form>
     </div>
 
     <div class="row marketing">
-      <div class="col-lg-6">
-        <h4>HTML5 Boilerplate</h4>
-        <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
+      <div class="col-lg-12">
+        <h4>Username: <em id="js-username"></em></h4>
+        <p id="js-avatar"></p>
 
-        <h4>Bootstrap</h4>
-        <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
+        <h4>Email:</h4>
+        <p id="js-email"></p>
 
-        <h4>Modernizr</h4>
-        <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
+        <h4>Github:</h4>
+        <p id="js-link"></p>
 
-
-        <h4>RequireJS</h4>
-        <p>RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node.</p>
       </div>
     </div>
 
     <div class="footer">
-      <p>♥ Erin Le</p>
+      <p>♥ Erin Lee</p>
     </div>
 
   </div>
