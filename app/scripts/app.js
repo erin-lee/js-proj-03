@@ -5,7 +5,7 @@ define([], function () {
     return '\'Allo \'Allo!';
 });
 
-var user = 'erin-lee'
+var user = 'erin-lee';
 
 var getUser = function(resp) {
   var data = resp.data;
@@ -30,11 +30,11 @@ var getUser = function(resp) {
         avatar,
         '">'
       ].join('')
-    )
-}
+    );
+};
 
 $.ajax({
-    url: "https://api.github.com/users/" + user,
+    url: 'https://api.github.com/users/' + user,
     dataType: 'jsonp',
     success: getUser
   }
